@@ -1,0 +1,67 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+label> input{
+    padding: 2px;
+    background-color: rgb(229, 232, 235);
+    border: 3px solid #29261d;
+    border-radius: 15px;
+}
+input::placeholder
+{
+    font-family: "Playball", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.b1
+{
+    font-family: "Playball", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:#29261d;
+    border: 3px solid rgb(161, 193, 161);
+    background-color: rgb(161, 193, 161);
+    padding: 2px;
+    border-radius: 15px;
+}
+.b1:hover{
+    color:#eee6cd;
+    background-color: rgb(23, 46, 45);
+}
+body
+{
+    background-image: url("bkg3.jpg");
+    /* height: 100vh; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#signupbkg
+{
+    font-family: "Playball", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    height:300px;
+    width:500px;
+    background-color: #29261d;
+    border: 10px solid #29261d;
+    border-radius: 30px;
+    padding: 10px;
+    margin-left: 500px;
+    margin-top: 200px;
+}
+.info
+{
+    font-size: 1.2em;
+    color:rgb(161, 193, 161);
+}
+#signh
+{
+    font-size: 1.5em;
+    color:#29261d;
+    border: 3px solid rgb(161, 193, 161);
+    background-color: rgb(161, 193, 161);
+    border-radius: 15px;
+}
