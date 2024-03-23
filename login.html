@@ -11,7 +11,7 @@
 </head>
 <body>
     <div id="signupbkg">
-        <form class="sgnb" action="home.html" method="get">
+        <form class="sgnb" id="mainForm" action="home.html" method="get">
             <h2 id="signh">SIGN UP</h2>
             <br>
             <hr style="color: rgb(161, 193, 161); border: 2px solid;">
@@ -24,7 +24,7 @@
             <br>
             <label class="info" for="name">
                 Create user_name :
-                <input required type="name" id="mail">
+                <input required type="name" id="username">
             </label>
             <br>
             <br>
@@ -34,7 +34,7 @@
             </label>
             <br>
             <br>
-            <button class="b1" onclick="home.html">Create Account</button>
+            <button class="b1" onclick="home.html" id="submit">Create Account</button>
             <br>
         </form>
         <br>
@@ -42,5 +42,6 @@
             <button class="b1" onclick="signin.html"> OR  Sign IN</button>
         </form>
     </div>
+    <script type="module" src="signin.js"></script>
 </body>
 </html>
